@@ -196,6 +196,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    
 }
 
 .cv-pdf i {
@@ -356,7 +357,7 @@ footer {
     margin-bottom: 30px;
 }
 
-* ----------------------------------------Contact Form */
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -382,6 +383,13 @@ button[type="submit"] {
 
 @media(min-width: 992px) {
     .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+.center-form {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
