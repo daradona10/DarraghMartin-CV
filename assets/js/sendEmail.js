@@ -7,6 +7,10 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response.status, response.text);
+            document.getElementById("fullname").value = "";
+            document.getElementById("emailaddress").value = "";
+            document.getElementById("projectsummary").value = "";
+            alert("Your request has been sent successfully.")
         },
         function(error) {
             console.log("FAILED", error);
